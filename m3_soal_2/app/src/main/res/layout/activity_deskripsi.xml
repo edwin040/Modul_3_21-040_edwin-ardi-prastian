@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".deskripsi">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Google Lens adalah teknologi pengenalan gambar dan pemrosesan citra dari Google \n yang memungkinkan pengguna untuk melakukan berbagai tugas hanya dengan mengarahkan kamera ponsel ke objek atau teks tertentu. Google Lens dapat mengenali objek, benda, tanda-tanda, teks, dan bahkan karakteristik visual pada benda di sekitar Anda. Beberapa fitur Google Lens meliputi:  Mengenali objek dan benda: Google Lens dapat mengenali objek dan
+        benda di sekitar Anda, seperti jenis bunga, merek produk, atau bahka jenis anjing. Menampilkan informasi tambahan: Setelah Google Lens mengenali objek atau benda tertentu, ia dapat menampilkan informasi tambahan, seperti ulasan produk atau informasi wisata.  Menerjemahkan teks: Google Lens dapat menerjemahkan teks dalam bahasa asing secara langsung hanya dengan
+        mengarahkan kamera ke teks tersebut. Menambahkan acara ke kalender: Google Lens dapat membaca informasi acara dari undangan dan menambahkannya ke kalender Anda.  Membuka URL: Google Lens dapat membaca QR code dan menyediakan tautan untuk membuka URL pada ponsel Anda.  Google Lens tersedia sebagai aplikasi mandiri untuk diunduh dari Google Play Store dan juga terintegrasi dengan aplikasi Google Photos, Google Assistant, dan Google Camera." />
+</LinearLayout>

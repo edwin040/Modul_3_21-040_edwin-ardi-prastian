@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="12dp"
+    android:background="@drawable/download">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:background="#FFFF33"
+        android:text="@string/kirana_xd"
+        android:Corner="20dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="#f01f"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_satu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ke_kegiatan_1"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="52dp"
+        android:paddingBottom="12dp"
+        />
+    <Button
+        android:id="@+id/btn_dua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ke_kegiatan_2"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="52dp"
+        />
+
+</LinearLayout>
